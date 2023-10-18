@@ -147,33 +147,49 @@ margin-left: 20px;
   /* nav starts here  */
   .nav-container {
     flex-direction: column;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    margin: auto 0;
+    gap: 18px;
+    
+    box-shadow: none;
+    
   }
   .logo-section {
-    margin-top: 100px;
+    margin-top: 20px;justify-content: center;
+  }
+  .logo-section img{
+    width: 25%;
   }
   .logo-section h2 {
     margin: 0;
+    font-size: 20px;
 
-    margin-left: 20px;
+    margin-left: 5px;
   }
   .menu-items ul {
     margin: 0px;
     padding: 0;
     flex-direction: column;
-    gap: 36px;
+    gap: 10px;
   }
   .menu-items {
     flex-direction: column;
+  }
+  .nav-container li a {
+    font-size: 10px;
+  }
+  .follow-icon {
+    padding: 8px;
+  }
+  .follow-icon p {
+    font-size: 11px;
+  }
+  .follow-icon span {
+    margin-left: 10px;
   }
   /* nav ends here  */
 /* banner section starts here  */
 .banner-container {
   flex-direction: column-reverse;align-items: center;
-  gap: 10px;
+  gap: 60px;
 }
 .banner-images{
   width: 70%;
@@ -202,7 +218,7 @@ margin-left: 20px;
 }
 
 #sign-in-button , #go-rogue-button{
-  font-size: 11px;
+  font-size: 12px;
   padding: 10px 17px;
   margin-left: 0px;
 

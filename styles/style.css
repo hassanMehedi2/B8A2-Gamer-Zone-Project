@@ -128,15 +128,13 @@ body {
 }
 .banner-subtitle p span {
   margin-right: 10px;
-}s
-.banner-images{
-  display: flex;
-  gap: 25px;
 }
+
 
 
 #go-rogue-button {
 background: #4EC5F7;
+margin-left: 20px;
 }
 
 /* banner section ends here  */
@@ -149,7 +147,10 @@ background: #4EC5F7;
   /* nav starts here  */
   .nav-container {
     flex-direction: column;
-    gap: 62px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
   }
   .logo-section {
     margin-top: 100px;
@@ -169,7 +170,48 @@ background: #4EC5F7;
     flex-direction: column;
   }
   /* nav ends here  */
+/* banner section starts here  */
+.banner-container {
+  flex-direction: column-reverse;align-items: center;
+  gap: 10px;
 }
+.banner-images{
+  width: 70%;
+  margin-top: 40px;
+}
+.banner-images img{
+  width: 100%;
+}
+
+.banner-content {
+  width: 85%;
+  
+}
+.banner-title{
+  font-size:22px ;
+}
+.goat-text{
+  font-size:38px ;
+}
+.banner-subtitle{
+  font-size: 9px;
+  margin: 3px 0 6px 0;
+}
+.banner-subtitle p{
+  margin: 0;
+}
+
+#sign-in-button , #go-rogue-button{
+  font-size: 10.5px;
+  padding: 10px 17px;
+  margin-left: 0px;
+
+}
+}
+
+
+
+
 
 /* responsive design for tablet  */
 @media screen and (min-width: 576px) and (max-width: 769px) {

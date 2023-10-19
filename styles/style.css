@@ -7,7 +7,6 @@ body {
   max-width: 1920px;
 }
 
-
 .text-pink {
   color: #ff42a5;
 }
@@ -132,163 +131,162 @@ body {
   margin-right: 10px;
 }
 
-
-
 #go-rogue-button {
-background: #4EC5F7;
-margin-left: 20px;
+  background: #4ec5f7;
+  margin-left: 20px;
 }
 
 /* banner section ends here  */
 
 /* gamer section starts here  */
 
-.gamer-section{
+.gamer-section {
   display: flex;
   gap: 50px;
-  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 13.13%,
+    rgba(255, 66, 165, 0.03) 87.94%
+  );
   justify-content: center;
   align-items: center;
 }
-.gamer-image{
+.gamer-image {
   width: 45%;
   margin: 50px 0;
 }
-.gamer-image img{
+.gamer-image img {
   width: 100%;
 }
-.gamer-content{
-  width: 32% ;
+.gamer-content {
+  width: 32%;
   text-align: right;
-
 }
-.gamer-title{
+.gamer-title {
   font-size: 48px;
   font-weight: 700;
   margin: 0;
   margin-bottom: 24px;
-  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.gamer-description{
-  color: #534C64;
+.gamer-description {
+  color: #534c64;
   font-size: 18px;
   font-weight: 400;
   text-align: right;
   margin: 0;
   margin-bottom: 30px;
-  
-line-height: 30px
+
+  line-height: 30px;
 }
-.sub-text{
-  color: #534C64;
+.sub-text {
+  color: #534c64;
   font-size: 24px;
   font-weight: 500;
   margin: 0;
   margin-top: 24px;
 }
-.coated-text{
-  color: #534C64;
+.coated-text {
+  color: #534c64;
   font-size: 32px;
   font-weight: 700;
 }
 /* gamer section ends here  */
 
 /* videos cart section starts here  */
-.card-section-title{
+.card-section-title {
   font-size: 48px;
   font-weight: 700;
-  color:#0B0223 ;
+  color: #0b0223;
   text-align: center;
   margin: 0;
   margin-top: 120px;
 }
-.text-purple{
-  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.text-purple {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.card-section-subtitle{
-  color: #534C64;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-margin-top: 10px;
-margin-bottom: 50px;
+.card-section-subtitle {
+  color: #534c64;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
-.card-container{width: calc(78% + 50px) ;
+.card-container {
+  width: calc(78% + 50px);
   display: flex;
   gap: 24px;
   margin: 0 auto;
   justify-content: center;
 }
-.card{
-  
+.card {
   width: calc(25% - 24px);
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-.card-image{
+.card-image {
   position: relative;
 }
-.card-description{
+.card-description {
   margin: 0;
-  color: #534C64;
-font-size: 20px;
-font-weight: 500;
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 /* hover card  */
-.hover-content{
+.hover-content {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  
+
   border-radius: 16px;
-border: 4px solid var(--Linear, #FF42A5);
-background: rgba(0, 0, 0, 0.7);
-font-size: 20px;
-font-weight: 500;
-color: #FF42A5;
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
-align-items: center;
-opacity: 0;
-transition: opacity 0.3s ease;
+  border: 4px solid var(--Linear, #ff42a5);
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+  font-weight: 500;
+  color: #ff42a5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
-.card-image:hover  .hover-content{
+.card-image:hover .hover-content {
   opacity: 1;
 }
-
 
 /* videos cart section ends here  */
 
 /* Responsive design For Mobile screen styles  */
 
 @media screen and (max-width: 576px) {
-main{
-  padding: 0 30px;
-}
+  main {
+    padding: 0 30px;
+  }
 
   /* nav starts here  */
   .nav-container {
     flex-direction: column;
     gap: 18px;
-    
     box-shadow: none;
-    
   }
   .logo-section {
-    margin-top: 20px;justify-content: center;
+    margin-top: 20px;
+    justify-content: center;
   }
   .logo-section img{
     width: 30%;
@@ -321,84 +319,81 @@ main{
     margin-left: 10px;
   }
   /* nav ends here  */
-/* banner section starts here  */
-.banner-container {
-  flex-direction: column-reverse;align-items: center;
-  gap: 40px;
-}
-.banner-images{
-  width: 70%;
-}
-.banner-images img{
-  width: 100%;
-}
+  /* banner section starts here  */
+  .banner-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 40px;
+  }
+  .banner-images {
+    width: 70%;
+  }
+  .banner-images img {
+    width: 100%;
+  }
 
-.banner-content {
-  width: 85%;
-  
-}
-.banner-title{
-  font-size:24px ;
-}
-.goat-text{
-  font-size:48px ;
-}
-.banner-subtitle{
-  font-size: 9px;
-  margin: 3px 0 6px 0;
-}
-.banner-subtitle p{
-  margin: 0;
-}
+  .banner-content {
+    width: 85%;
+  }
+  .banner-title {
+    font-size: 24px;
+  }
+  .goat-text {
+    font-size: 48px;
+  }
+  .banner-subtitle {
+    font-size: 9px;
+    margin: 3px 0 6px 0;
+  }
+  .banner-subtitle p {
+    margin: 0;
+  }
 
-#sign-in-button , #go-rogue-button{
-  font-size: 12px;
-  padding: 10px 17px;
-  margin-left: 0px;
-}
+  #sign-in-button,
+  #go-rogue-button {
+    font-size: 12px;
+    padding: 10px 17px;
+    margin-left: 0px;
+  }
 
-/* gamer section starts here  */
+  /* gamer section starts here  */
 
-.gamer-section{
-  flex-direction: column;
-  background: white;
-  text-align: center;
-  gap: 30px;
-}
-.gamer-image{
-  width: 100%;
-  margin: 0px;
-  margin-top: 20px;
-}
+  .gamer-section {
+    flex-direction: column;
+    background: white;
+    text-align: center;
+    gap: 30px;
+  }
+  .gamer-image {
+    width: 100%;
+    margin: 0px;
+    margin-top: 20px;
+  }
 
-.gamer-content{
-  width: 65%;
-  text-align: center;
-}
-.gamer-title{
-  font-size: 22px;
-}
+  .gamer-content {
+    width: 65%;
+    text-align: center;
+  }
+  .gamer-title {
+    font-size: 22px;
+  }
 
-.gamer-description{
-  font-size: 10px;
-  text-align: center;
-  line-height: normal;
-  margin-bottom: 15px;
-}
-#know-more-button{
-  font-size: 12px;
-  padding: 10px 20px;
-}
-.sub-text{
-  font-size: 12px;
-}
-.coated-text{
-  font-size: 14px;
-}
-
-
-
-
+  .gamer-description {
+    font-size: 10px;
+    text-align: center;
+    line-height: normal;
+    margin-bottom: 15px;
+  }
+  #know-more-button {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+  .sub-text {
+    font-size: 12px;
+  }
+  .coated-text {
+    font-size: 14px;
+  }
 }
 /* responsive design for tablet  */
 @media screen and (min-width: 576px) and (max-width: 769px) {

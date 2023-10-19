@@ -271,7 +271,7 @@ body {
 
 /* videos cart section ends here  */
 
-/* Responsive design For Mobile screen styles  */
+/* Responsive design For Mobile screen styles========================================================  */
 
 @media screen and (max-width: 576px) {
   main {
@@ -392,9 +392,61 @@ body {
     font-size: 12px;
   }
   .coated-text {
-    font-size: 14px;
+    font-size: 11px;
   }
+/* videos cart section starts here  */
+.card-section-title {
+  font-size: 17px;
+  margin: 0;
+  margin-top: 60px;
 }
+
+.card-section-subtitle {
+  font-size: 7px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+.card-container {
+  flex-direction: column;
+  gap: 19px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.card-image {
+  position: relative;
+  width: 200px;
+  height: 190px;
+  overflow: hidden;
+}
+.card-image img{width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.card-description {
+  margin: 0;
+  font-size: 7px;
+}
+.hover-content {
+  border-radius: 0;
+}
+
+
+}
+
+
+
+
+
 /* responsive design for tablet  */
 @media screen and (min-width: 576px) and (max-width: 769px) {
   /* nav starts here  */

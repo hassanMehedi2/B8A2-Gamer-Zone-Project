@@ -6,6 +6,11 @@
 body {
   max-width: 1920px;
 }
+main{
+  
+  padding: 0 240px;
+}
+
 .text-pink {
   color: #ff42a5;
 }
@@ -138,12 +143,74 @@ margin-left: 20px;
 }
 
 /* banner section ends here  */
-/* nav section starts here  */
-/* nav section ends here  */
 
-/* For Mobile screen styles  */
+/* gamer section starts here  */
+
+.gamer-section{
+  display: flex;
+  gap: 50px;
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+  justify-content: center;
+  align-items: center;
+}
+.gamer-image{
+  width: 60.5%;
+  margin: 50px 0;
+}
+.gamer-image img{
+  width: 100%;
+}
+.gamer-content{
+  width: calc(39.5% - 50px);
+  text-align: right;
+  
+  
+
+
+}
+.gamer-title{
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 24px;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.gamer-description{
+  color: #534C64;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: right;
+  margin: 0;
+  margin-bottom: 30px;
+  
+line-height: 30px
+}
+.sub-text{
+  color: #534C64;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 24px;
+}
+.coated-text{
+  color: #534C64;
+  font-size: 32px;
+  font-weight: 700;
+}
+/* gamer section ends here  */
+
+
+
+/* Responsive design For Mobile screen styles  */
 
 @media screen and (max-width: 576px) {
+main{
+  padding: 0 30px;
+}
+
   /* nav starts here  */
   .nav-container {
     flex-direction: column;
@@ -156,7 +223,7 @@ margin-left: 20px;
     margin-top: 20px;justify-content: center;
   }
   .logo-section img{
-    width: 25%;
+    width: 30%;
   }
   .logo-section h2 {
     margin: 0;
@@ -189,11 +256,10 @@ margin-left: 20px;
 /* banner section starts here  */
 .banner-container {
   flex-direction: column-reverse;align-items: center;
-  gap: 60px;
+  gap: 40px;
 }
 .banner-images{
   width: 70%;
-  margin-top: 40px;
 }
 .banner-images img{
   width: 100%;
@@ -221,8 +287,45 @@ margin-left: 20px;
   font-size: 12px;
   padding: 10px 17px;
   margin-left: 0px;
-
 }
+}
+/* gamer section starts here  */
+
+.gamer-section{
+  flex-direction: column;
+  background: white;
+  text-align: center;
+  gap: 30px;
+}
+.gamer-image{
+  width: 100%;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.gamer-content{
+  width: 65%;
+  text-align: center;
+}
+.gamer-title{
+  font-size: 22px;
+}
+
+.gamer-description{
+  font-size: 10px;
+  text-align: center;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+#know-more-button{
+  font-size: 12px;
+  padding: 10px 20px;
+}
+.sub-text{
+  font-size: 12px;
+}
+.coated-text{
+  font-size: 14px;
 }
 
 

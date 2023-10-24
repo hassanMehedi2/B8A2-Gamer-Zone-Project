@@ -362,7 +362,7 @@ body {
   background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
 }
 .careers-content {
-  width: 36%;
+  width: 40%;
   overflow: hidden;
   padding: 7.5rem 0;
   padding-left: 10%;
@@ -401,7 +401,7 @@ body {
 }
 
 .career-image {
-  width: 54%;
+  width: 50%;
 }
 
 .career-image img {

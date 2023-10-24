@@ -808,9 +808,12 @@ body {
   }
 }
 
-/* responsive design for tablet  */
+/* responsive design for tablet   ===============*/
 @media screen and (min-width: 576px) and (max-width: 769px) {
   /* nav starts here  */
+  html{
+    font-size: 7px;
+  }
   .nav-container {
     gap: 50px;
   }
@@ -829,8 +832,19 @@ body {
     font-size: 16px;
   }
 
+  .follow-icon {
+    background-color: white;
+  }
   .follow-icon span {
     margin-left: 10px;
+  }
+ 
+  .play-content{
+    width: 25%;
+  }
+  .social-media a svg{
+    width: 50%;
+    padding: 2px;
   }
   /* nav ends here  */
 }

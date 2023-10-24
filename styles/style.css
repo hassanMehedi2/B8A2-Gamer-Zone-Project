@@ -795,14 +795,26 @@ body {
   }
 
   .social-media {
+    width: 60%;
     flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
   }
-
+  .social-media-button {
+    width: 15%;
+    padding: 2px;
+    margin: auto auto;
+  }
+  .social-media-button svg {
+    width: 100%;
+    padding: 2px;
+  }
   .footer-terms {
     flex-wrap: wrap;
     gap: 1.5rem;
   }
-  .copywrite{
+  .copywrite {
     flex-direction: column;
     gap: 5px;
   }
@@ -811,40 +823,47 @@ body {
 /* responsive design for tablet   ===============*/
 @media screen and (min-width: 576px) and (max-width: 769px) {
   /* nav starts here  */
-  html{
+  html {
     font-size: 7px;
   }
   .nav-container {
-    gap: 50px;
+    gap: 30px;
   }
   .logo-section img {
-    width: 60%;
+    width: 50%;
   }
   .logo-section h2 {
-    font-size: 32px;
+    font-size: 3.5rem;
   }
 
   .menu-items ul {
     gap: 20px;
   }
-  .menu-items li a,
-  .follow-icon p {
+  .menu-items li a {
     font-size: 16px;
   }
+  
 
   .follow-icon {
     background-color: white;
   }
+  .follow-icon p {
+    font-size: 10px;
+  }
   .follow-icon span {
     margin-left: 10px;
   }
- 
-  .play-content{
+
+  .play-content {
     width: 25%;
   }
-  .social-media a svg{
+  .social-media a svg {
     width: 50%;
     padding: 2px;
+  }
+
+  .footer-container .logo-section img{
+    width: 30%;
   }
   /* nav ends here  */
 }
